@@ -1,0 +1,86 @@
+{
+  "status": "done",
+  "assets": {
+    "fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.e638a36a.woff": {
+      "name": "fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.e638a36a.woff",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.e638a36a.woff",
+      "publicPath": "http://0.0.0.0:8080/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.e638a36a.woff"
+    },
+    "fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.2543e46e.woff2": {
+      "name": "fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.2543e46e.woff2",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.2543e46e.woff2",
+      "publicPath": "http://0.0.0.0:8080/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.2543e46e.woff2"
+    },
+    "fonts/KFOkCnqEu92Fr1MmgVxIIzQ.04b7fd97.woff": {
+      "name": "fonts/KFOkCnqEu92Fr1MmgVxIIzQ.04b7fd97.woff",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/fonts/KFOkCnqEu92Fr1MmgVxIIzQ.04b7fd97.woff",
+      "publicPath": "http://0.0.0.0:8080/fonts/KFOkCnqEu92Fr1MmgVxIIzQ.04b7fd97.woff"
+    },
+    "fonts/KFOlCnqEu92Fr1MmEU9fBBc-.da2721c6.woff": {
+      "name": "fonts/KFOlCnqEu92Fr1MmEU9fBBc-.da2721c6.woff",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/fonts/KFOlCnqEu92Fr1MmEU9fBBc-.da2721c6.woff",
+      "publicPath": "http://0.0.0.0:8080/fonts/KFOlCnqEu92Fr1MmEU9fBBc-.da2721c6.woff"
+    },
+    "fonts/KFOlCnqEu92Fr1MmSU5fBBc-.bf0f4071.woff": {
+      "name": "fonts/KFOlCnqEu92Fr1MmSU5fBBc-.bf0f4071.woff",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/fonts/KFOlCnqEu92Fr1MmSU5fBBc-.bf0f4071.woff",
+      "publicPath": "http://0.0.0.0:8080/fonts/KFOlCnqEu92Fr1MmSU5fBBc-.bf0f4071.woff"
+    },
+    "fonts/KFOlCnqEu92Fr1MmWUlfBBc-.68d6dabf.woff": {
+      "name": "fonts/KFOlCnqEu92Fr1MmWUlfBBc-.68d6dabf.woff",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/fonts/KFOlCnqEu92Fr1MmWUlfBBc-.68d6dabf.woff",
+      "publicPath": "http://0.0.0.0:8080/fonts/KFOlCnqEu92Fr1MmWUlfBBc-.68d6dabf.woff"
+    },
+    "fonts/KFOlCnqEu92Fr1MmYUtfBBc-.64bba9c4.woff": {
+      "name": "fonts/KFOlCnqEu92Fr1MmYUtfBBc-.64bba9c4.woff",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/fonts/KFOlCnqEu92Fr1MmYUtfBBc-.64bba9c4.woff",
+      "publicPath": "http://0.0.0.0:8080/fonts/KFOlCnqEu92Fr1MmYUtfBBc-.64bba9c4.woff"
+    },
+    "fonts/KFOmCnqEu92Fr1Mu4mxM.dc3e086f.woff": {
+      "name": "fonts/KFOmCnqEu92Fr1Mu4mxM.dc3e086f.woff",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/fonts/KFOmCnqEu92Fr1Mu4mxM.dc3e086f.woff",
+      "publicPath": "http://0.0.0.0:8080/fonts/KFOmCnqEu92Fr1Mu4mxM.dc3e086f.woff"
+    },
+    "img/logo.82b9c7a5.png": {
+      "name": "img/logo.82b9c7a5.png",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/img/logo.82b9c7a5.png",
+      "publicPath": "http://0.0.0.0:8080/img/logo.82b9c7a5.png"
+    },
+    "img/logo.6980b57d.svg": {
+      "name": "img/logo.6980b57d.svg",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/img/logo.6980b57d.svg",
+      "publicPath": "http://0.0.0.0:8080/img/logo.6980b57d.svg"
+    },
+    "js/about.js": {
+      "name": "js/about.js",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/js/about.js",
+      "publicPath": "http://0.0.0.0:8080/js/about.js"
+    },
+    "js/main.js": {
+      "name": "js/main.js",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/js/main.js",
+      "publicPath": "http://0.0.0.0:8080/js/main.js"
+    },
+    "main.html": {
+      "name": "main.html",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/main.html",
+      "publicPath": "http://0.0.0.0:8080/main.html"
+    },
+    "favicon.ico": {
+      "name": "favicon.ico",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/favicon.ico",
+      "publicPath": "http://0.0.0.0:8080/favicon.ico"
+    },
+    "1797e7aaf73cc29f97d0.hot-update.json": {
+      "name": "1797e7aaf73cc29f97d0.hot-update.json",
+      "path": "/home/pablo/mgk-vue/mgk/ui/dist/1797e7aaf73cc29f97d0.hot-update.json",
+      "publicPath": "http://0.0.0.0:8080/1797e7aaf73cc29f97d0.hot-update.json"
+    }
+  },
+  "chunks": {
+    "main": [
+      "js/main.js"
+    ]
+  },
+  "publicPath": "http://0.0.0.0:8080/"
+}
