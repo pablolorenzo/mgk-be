@@ -8,6 +8,7 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 from .serializers import ServiceStatusSerializer, ServiceTypeSerializer, ServiceSerializer, BalanceItemSerializer, BalanceItemServiceEntrySerializer, BalanceItemServiceEntrySerializerID
 from index.models import ServiceType, ServiceStatus, Service, BalanceItem, BalanceItemServiceEntry
 from .filters import ServiceFilter 
+from rest_framework.permissions import IsAuthenticated
 
 class StandardResultsSetPagination(PageNumberPagination):
     page_size = 10
@@ -15,37 +16,44 @@ class StandardResultsSetPagination(PageNumberPagination):
     max_page_size = 1000
 
 class ServiceStatusViewSet(viewsets.ModelViewSet):
+    permission_classes = (IsAuthenticated,)
     queryset = ServiceStatus.objects.all().order_by('status')
     serializer_class = ServiceStatusSerializer
 
 class ServiceTypeViewSet(viewsets.ModelViewSet):
+    permission_classes = (IsAuthenticated,)
     queryset = ServiceType.objects.all().order_by('service_type')
     serializer_class = ServiceTypeSerializer
 
 class ServiceViewSet(viewsets.ModelViewSet):
+    permission_classes = (IsAuthenticated,)
     queryset = Service.objects.all().order_by('id')
     serializer_class = ServiceSerializer
 
 class BalanceItemViewSet(viewsets.ModelViewSet):
+    permission_classes = (IsAuthenticated,)
     queryset = BalanceItem.objects.all().order_by('id')
     serializer_class = BalanceItemSerializer
     
 class BalanceItemServiceEntryViewSet(viewsets.ModelViewSet):
+    permission_classes = (IsAuthenticated,)
     queryset = BalanceItemServiceEntry.objects.all().order_by('id')
     serializer_class = BalanceItemServiceEntrySerializerID
 
 class ServicesViewSetAlt(mixins.ListModelMixin, viewsets.GenericViewSet):
+    permission_classes = (IsAuthenticated,)
     queryset = Service.objects.all()
     serializer_class = ServiceSerializer
     filter_backends = [DjangoFilterBackend]
 
 class ServicesViewSet(viewsets.ModelViewSet):
+    permission_classes = (IsAuthenticated,)
     queryset = Service.objects.all().order_by('id')
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
     filterset_fields = ['id', 'provider_id', 'status_id']
     search_fields = ['=address']
     ordering_fields = ['status_id', 'id']
-    ordering = ['id']
+    ordering = ['-id']
     serializer_class=ServiceSerializer
     pagination_class = StandardResultsSetPagination
     """
